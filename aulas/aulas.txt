@@ -9,7 +9,11 @@ git status = vai verificar a arvore do git atual
 working diretory - repositório atual de trabalho, como estamos trabalhando, em relação ao git não fizemos nada com ele ainda
 devemos passar os nossos arquivos de working diretory para staging area, com o git add <file>, agora para passarmos ele para o .git directory, devemos usar o git commit -m ""
 working directory é a área de trabalho nosso
-staging area - 
+staging area - é a área onde você adiciona arquivos no git
+working directory - é onde eu estou trabalhando no momento
+no caso quando eu faço git add ele vai para o staging area
+quando eu faço o commit, eu mando para o .git directory(repository)
+
 
 git log mostra tudo o que foi no commit
 
@@ -27,5 +31,6 @@ git log --name-status ele me mostra o nome do arquivo que foi alterado
 	A - Adicionado
 	
 posso usar o git log, pegar o seu id, e depois utilizar git diff ('id')
-
-git pus
+git rm <file>
+lembrando o git rm adiciona os arquivos na staging area quando eu deleto um arquivo
+ 
