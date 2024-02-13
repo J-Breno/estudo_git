@@ -55,3 +55,4 @@ sempre commit as coisas necessárias no seu projeto, para fazer breakpoint no se
 
 git rm -rf node_modules/ --cached // esse --cached vai remover do staging area, caso eu tenha adicionado sem querer
 
+git commit -a -m "" vai adicionar algo, a algo já existente
