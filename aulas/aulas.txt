@@ -69,3 +69,14 @@ git config --list vai mostrar todas as minhas alterações
 eu posso escolher qual editor ele vai abri com a seguinte linha
 
 git config --global core.editor vim(ou qualquer outro que eu escolher)
+
+git log --pretty=oneline /// deixa o log bonito em apenas uma linhas
+
+git log --abbrev-commit // vai abreviar a menssagem de commit
+
+git log --stat // vai deixar mais detalhado
+
+git log -p
+
+eu posso juntar tudo
+git log --abbrev-commit --pretty=oneline 
