@@ -50,3 +50,7 @@ ele tem que ser colocado na raiz do seu projeto
 Untracked files ele não está no seu staging area e ele não faz  parte do seu .git directory
 
 rm -r deleta diretorios
+
+sempre commit as coisas necessárias no seu projeto, para fazer breakpoint no seu projeto
+
+git rm -rf node_modules/ --cached // esse --cached não vai permitir remover do seu diretorio
