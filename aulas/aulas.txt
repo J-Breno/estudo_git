@@ -33,4 +33,5 @@ git log --name-status ele me mostra o nome do arquivo que foi alterado
 posso usar o git log, pegar o seu id, e depois utilizar git diff ('id')
 git rm <file>
 lembrando o git rm adiciona os arquivos na staging area quando eu deleto um arquivo
- 
+ git add -A adiciona tudo no staging Area, até os deletados, isso é bom para saber o que está acontecendo
+  
