@@ -1,0 +1,31 @@
+git é um sistema de controle de versão
+qualquer tipo de projeto, o git vai me ajudar a manter veersões desses projetos, para que eu tenha o histórico de todas as
+versões que eu já tenha feito, tudo o que eu altero, tudo o que eu mudo, eu tenho o poder de controla-lo
+
+git init = vai iniciar um repositório do git no nosso projeto
+
+git status = vai verificar a arvore do git atual
+
+working diretory - repositório atual de trabalho, como estamos trabalhando, em relação ao git não fizemos nada com ele ainda
+devemos passar os nossos arquivos de working diretory para staging area, com o git add <file>, agora para passarmos ele para o .git directory, devemos usar o git commit -m ""
+working directory é a área de trabalho nosso
+staging area - 
+
+git log mostra tudo o que foi no commit
+
+o git diff eu consigo ver as coisas que eu modifiquei no meu arquivo
+
+Untracked files - foi criado mais não está na staging area
+
+o git diff ele vê as alterações que estavam no working directory para o staging area, 
+já o git diff --staged mostra as alterações do staging area para o git directory
+
+git diff style.css - somente no estilo
+
+git log --name-status ele me mostra o nome do arquivo que foi alterado
+	M - modificado
+	A - Adicionado
+	
+posso usar o git log, pegar o seu id, e depois utilizar git diff ('id')
+
+git pus
