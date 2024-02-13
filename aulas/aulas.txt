@@ -60,3 +60,12 @@ git commit -a -m "" vai adicionar algo, a algo já existente, isso é perigoso, 
 se você adicionar .gitignore na raiz (~/.gitignore), e depois fazer o comando:
 git config --global core.excludesfile ~/.gitignore
 ai ele vai ignore de todos os meus arquivos que tiverem o ~/.gitignore
+
+se eu fizer git commit sem passar minha menssagem ele vai abrir um editor para eu poder escrever
+isso é bom pois eu posso fazer o commit mais detalhado
+
+git config --list vai mostrar todas as minhas alterações
+
+eu posso escolher qual editor ele vai abri com a seguinte linha
+
+git config --global core.editor vim(ou qualquer outro que eu escolher)
