@@ -55,4 +55,8 @@ sempre commit as coisas necessárias no seu projeto, para fazer breakpoint no se
 
 git rm -rf node_modules/ --cached // esse --cached vai remover do staging area, caso eu tenha adicionado sem querer
 
-git commit -a -m "" vai adicionar algo, a algo já existente
+git commit -a -m "" vai adicionar algo, a algo já existente, isso é perigoso, então sempre faça git add, git status, inves de usar esse
+
+se você adicionar .gitignore na raiz (~/.gitignore), e depois fazer o comando:
+git config --global core.excludesfile ~/.gitignore
+ai ele vai ignore de todos os meus arquivos que tiverem o ~/.gitignore
