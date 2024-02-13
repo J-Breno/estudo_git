@@ -34,4 +34,19 @@ posso usar o git log, pegar o seu id, e depois utilizar git diff ('id')
 git rm <file>
 lembrando o git rm adiciona os arquivos na staging area quando eu deleto um arquivo
  git add -A adiciona tudo no staging Area, até os deletados, isso é bom para saber o que está acontecendo
-  
+
+//  .gitignore
+
+ele no mundo linux , esse arquivo é conhecido como not file
+
+no linux todos os arquivos que começam com ponto são ocultos
+
+o .gitignore básicamente ele serve para você ignorar alguns arquivos do seu repositório
+
+por exemplo: alguns arquivos que você não quer commitar, você não quer que eles fazem parte da arvore do git mas você precisa deles no teu projeto
+
+ele tem que ser colocado na raiz do seu projeto
+
+Untracked files ele não está no seu staging area e ele não faz  parte do seu .git directory
+
+rm -r deleta diretorios
